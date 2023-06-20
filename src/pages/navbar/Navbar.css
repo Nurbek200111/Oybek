@@ -1,0 +1,76 @@
+.navbar {
+  background: var(--bgColor);
+  width: 100%;
+  height: 60px;
+}
+.logotype {
+  width: 155px;
+  margin-left: 40px;
+}
+.navbar-ul {
+  z-index: 2;
+  position: absolute;
+  left: 185px;
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  font-weight: 600;
+  color: white;
+  margin-top: 35px;
+  height: 40px;
+}
+.navbar-ul-li:hover .navbar-ul-ul {
+  display: block;
+  border: 1px solid silver;
+
+}
+.navbar-ul-li:hover .navbar-ul-ul2 {
+  display: block;
+  border: 2px solid silver;
+
+}
+.navbar-ul-ul {
+  border-radius: 5px;
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  background: white;
+  color: black;
+  width: 200px;
+  top: 35px;
+  height: 150px;
+  list-style: none;
+}
+.navbar-ul-ul li {
+  margin-top: 7px;
+}
+.navbar-ul-ul2 li {
+  margin-top: 10px;
+}
+.navbar-ul-ul2 {
+  border-radius: 5px;
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  background: white;
+  color: black;
+  width: 200px;
+  top: 35px;
+  height: 50px;
+  list-style: none;
+}
+.Language_button{
+  width: 30px;
+  height:30px;
+  border: 2px solid white;
+  background-color: var(--bgColor);
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s;
+
+}
+.Language_button:hover{
+  color: black;
+  background-color: white;
+  transition: 0.2s;
+}

@@ -1,0 +1,45 @@
+.serach-background-image{
+    background-image:url('https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,00192f,00baff)/hreiLoPysWG79TsyQgMzFKaOTF5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 305px;
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.search-title{
+  font-weight: bold;
+  font-size: 44px;
+  color: white;
+}
+.search-desc{
+    font-size: 28.75px;
+    font-weight: bold;
+    color: white;
+    margin-top:-8px;
+}
+.search-inp_search{
+    width: 98.5%;
+    height: 44px;
+    outline: none;
+    border: none;
+    border-radius: 35px;
+    padding-left: 20px;
+    margin-top: 50px;
+}
+.search-btn_search{
+    position: absolute;
+    right: 20px;
+    bottom: 60px;
+    width: 100px;
+    height: 44px;
+    border: none;
+    border-radius: 35px;
+    background: linear-gradient(to left,rgb(1,180,227),rgb(30,212,171));
+    font-weight: bold;
+    color: white;
+
+
+}

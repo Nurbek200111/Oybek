@@ -1,0 +1,26 @@
+.trending-movie-bgimg {
+  background-image: url("../../assets/bgtrending.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.trending-movie-flexing {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  gap: 50px;
+  overflow-x: scroll;
+  margin-left: 70px;
+  border-radius: 20px;
+
+}
+.trending-movie-flexing::-webkit-scrollbar {
+  display: none;
+}
+.trending-movie-flex-card {
+  width: calc(100% / 6);
+}
+.trending-movie-img {
+  width: 200px;
+  border-radius: 20px;
+}
